@@ -269,6 +269,15 @@
     <ClCompile Include="..\..\test\osiUnitTest.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Cgl\Cgl\MSVisualStudio\v16alt\libCgl.vcxproj">
+      <Project>{dbea3904-f0b8-408a-9e1a-6497febe8c42}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Osi\Osi\MSVisualStudio\v16alt\libOsi.vcxproj">
+      <Project>{6a555565-9ea5-4382-b913-01544c52a2ab}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Osi\Osi\MSVisualStudio\v16alt\libOsiCommonTest.vcxproj">
+      <Project>{109d6e6f-6d91-460f-86ae-df27400e09a9}</Project>
+    </ProjectReference>
     <ProjectReference Include="libCbc.vcxproj">
       <Project>{e8a3cfd2-98b5-4cdb-95aa-357d28415482}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
