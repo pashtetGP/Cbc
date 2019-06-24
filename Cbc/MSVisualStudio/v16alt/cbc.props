@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ImportGroup Label="PropertySheets">
-    <Import Project="$(CoinRoot)\Cgl\Cgl\MSVisualStudio\v10alt\cgl.props" Condition=" '$(Have_Cgl_Props)' != 'yes' " />
-    <Import Project="$(CoinRoot)\Clp\Clp\MSVisualStudio\v10alt\osiclp.props" Condition=" '$(Have_OsiClp_Props)' != 'yes' " />
+    <Import Project="$(CoinRoot)\Cgl\Cgl\MSVisualStudio\v16alt\cgl.props" Condition=" '$(Have_Cgl_Props)' != 'yes' " />
+    <Import Project="$(CoinRoot)\Clp\Clp\MSVisualStudio\v16alt\osiclp.props" Condition=" '$(Have_OsiClp_Props)' != 'yes' " />
   </ImportGroup>
   <PropertyGroup Label="UserMacros">
     <Have_Cbc_Props>yes</Have_Cbc_Props>

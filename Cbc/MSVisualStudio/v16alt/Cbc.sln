@@ -20,6 +20,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libCgl", "..\..\..\..\Cgl\C
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libClp", "..\..\..\..\Clp\Clp\MSVisualStudio\v16alt\libClp.vcxproj", "{4F8F7D1C-3A9E-444D-8EE9-77F33FA05994}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libOsiClp", "..\..\..\..\Clp\Clp\MSVisualStudio\v16alt\libOsiClp.vcxproj", "{02D45875-A8CF-41B9-990B-3699C0ECFE10}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -138,6 +140,18 @@ Global
 		{4F8F7D1C-3A9E-444D-8EE9-77F33FA05994}.Release|Win32.Build.0 = Release|Win32
 		{4F8F7D1C-3A9E-444D-8EE9-77F33FA05994}.Release|x64.ActiveCfg = Release|x64
 		{4F8F7D1C-3A9E-444D-8EE9-77F33FA05994}.Release|x64.Build.0 = Release|x64
+		{02D45875-A8CF-41B9-990B-3699C0ECFE10}.Debug|Win32.ActiveCfg = Debug|Win32
+		{02D45875-A8CF-41B9-990B-3699C0ECFE10}.Debug|Win32.Build.0 = Debug|Win32
+		{02D45875-A8CF-41B9-990B-3699C0ECFE10}.Debug|x64.ActiveCfg = Debug|x64
+		{02D45875-A8CF-41B9-990B-3699C0ECFE10}.Debug|x64.Build.0 = Debug|x64
+		{02D45875-A8CF-41B9-990B-3699C0ECFE10}.DebugDLL|Win32.ActiveCfg = Debug|Win32
+		{02D45875-A8CF-41B9-990B-3699C0ECFE10}.DebugDLL|Win32.Build.0 = Debug|Win32
+		{02D45875-A8CF-41B9-990B-3699C0ECFE10}.DebugDLL|x64.ActiveCfg = Debug|x64
+		{02D45875-A8CF-41B9-990B-3699C0ECFE10}.DebugDLL|x64.Build.0 = Debug|x64
+		{02D45875-A8CF-41B9-990B-3699C0ECFE10}.Release|Win32.ActiveCfg = Release|Win32
+		{02D45875-A8CF-41B9-990B-3699C0ECFE10}.Release|Win32.Build.0 = Release|Win32
+		{02D45875-A8CF-41B9-990B-3699C0ECFE10}.Release|x64.ActiveCfg = Release|x64
+		{02D45875-A8CF-41B9-990B-3699C0ECFE10}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
